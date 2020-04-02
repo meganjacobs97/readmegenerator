@@ -177,8 +177,7 @@ inquirer
       fileData += `${email}`
     }
     
-    //TODO - CHANGE TO README
-    const fileName = "README.md"; 
+    const fileName = "generatedREADME.md"; 
     
     //write to file 
     fs.writeFile(fileName,fileData,function(error) {
